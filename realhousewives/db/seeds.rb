@@ -13,7 +13,8 @@ bethenny = Housewife.create(
             spouse: "None",
             net_worth: 25000000,
             plastic_surgery: true,
-            age: 46
+            age: 46,
+            photo: "http://cdn5.thr.com/sites/default/files/2012/05/Bethenny_Frankel_a_p.jpg"
 )
 
 luann = Housewife.create(
@@ -22,7 +23,8 @@ luann = Housewife.create(
             spouse: "Tom D'Agostino",
             net_worth: 15000000,
             plastic_surgery: true,
-            age: 52
+            age: 52,
+            photo: "http://zntent.com/wp-content/uploads/2016/01/LuAnn-De-Lesseps.jpg"
 )
 
 ramona = Housewife.create(
@@ -31,5 +33,6 @@ ramona = Housewife.create(
             spouse: "None",
             net_worth: 18000000,
             plastic_surgery: true,
-            age: 59
+            age: 59,
+            photo: "http://1.bp.blogspot.com/-_VChXUAzw00/TZdbT0DRqHI/AAAAAAAAAUo/0Cv934oVQR0/s1600/ramona-singer-0.jpg"
 )

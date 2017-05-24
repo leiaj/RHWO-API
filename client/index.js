@@ -45,6 +45,7 @@ function getDetails(id) {
 function showDetails(housewife) {
   const details =
     `<h4> ${housewife.name} </h4>
+    <p><img src="${housewife.photo}" class="circle responsive-img"></p>
     <p>Which City Is She From?: ${housewife.franchise}</p>
     <p>Does She Have A S/O?: ${housewife.spouse}</p>
     <p>How Much Is She Worth?: ${housewife.net_worth}</p>

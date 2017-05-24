@@ -22,6 +22,6 @@ class Api::V1::HousewivesController < ApplicationController
   private
 
   def housewife_params
-    params.require(:housewife).permit(:name, :franchise, :spouse, :net_worth, :plastic_surgery, :age)
+    params.require(:housewife).permit(:name, :franchise, :spouse, :net_worth, :plastic_surgery, :age, :photo)
   end
 end
