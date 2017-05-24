@@ -1,0 +1,2 @@
+class Housewife < ApplicationRecord
+end
