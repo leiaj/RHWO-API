@@ -1,7 +1,12 @@
 class Api::V1::HousewivesController < ApplicationController
 
   def index
-    @housewives = Housewife.all
+
+    if params[:franchise] == "All"
+      @housewives = Housewife.all
+    else
+      @housewives = Housewife.where(franchise: params[:franchise])
+    end
     render json: @housewives, each_serializer: HousewifeIndexSerializer
   end
 
